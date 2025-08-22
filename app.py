@@ -103,10 +103,10 @@ GROUP BY p.Provider_ID
 ORDER BY Total_Quantity;'''
 }
 # ---------- CONFIG ---------- #
-st.set_page_config(page_title="Local Food Wastage Management System", layout="centered")
+st.set_page_config(page_title="Local Food Waste Management System", layout="centered")
 
 # ---------- HEADER ---------- #
-st.title("🍽 Local Food Wastage Management System")
+st.title("🍽 Local Food Waste Management System")
 st.write("Streamlit is running!")
 
 # ---------- DB CONNECTION ---------- #
