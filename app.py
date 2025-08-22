@@ -6,7 +6,7 @@ import pandas as pd
 conn = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="newpassword",
+    password="123456",
     database="food_management"
 )
 
@@ -115,7 +115,7 @@ def get_connection():
         conn = mysql.connector.connect(
             host="127.0.0.1",
             user="root",
-            password="newpassword",
+            password="123456",
             database="food_management"
         )
         return conn
@@ -168,7 +168,7 @@ import pandas as pd
 conn = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="newpassword",
+    password="123456",
     database="food_management"
 )
 cursor = conn.cursor()
